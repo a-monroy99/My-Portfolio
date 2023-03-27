@@ -1,3 +1,51 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*TODO header details*/
+.header {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background-color: darkolivegreen;
+}
+
+.header h1 {
+    display: inline-block;
+}
+.header nav {
+    float: right;
+    font-size: 24px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+section.topics {
+    border-right-style: solid;
+    margin: 30px 20px;
+    float: left;
+}
+
+.about-me,
+.my-apps,
+.contact-me {
+    padding: 49px;
+    margin-bottom: 70px;
+    border-right: 10px;
+    border-right-color: black;
+}
+
+.about-me h2,
+.my-apps h2,
+.contact-me h2 { 
+    margin: auto;
 }
