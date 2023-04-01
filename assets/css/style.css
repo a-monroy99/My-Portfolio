@@ -49,22 +49,59 @@ a {
 }
 
 section.topics {
-    border-right-style: solid;
-    margin: 30px 20px;
-    float: left;
+    margin: 30px 100px;  
+}
+
+p {
+    justify-content: center;
+    display: flex;
 }
 
 .about-me,
 .my-apps,
 .contact-me {
+    border-right-style: solid;
+    border-left-style: solid;
     padding: 49px;
     margin-bottom: 70px;
-    border-right: 10px;
-    border-right-color: black;
 }
 
 .about-me h2,
 .my-apps h2,
 .contact-me h2 { 
+    display: flex;
     margin: auto;
+    justify-content: center;
+}
+
+.crochet a,
+.alpaca a,
+.crystals a,
+.botique a {
+display: flex;
+}
+
+.main-app {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+.crochet {
+    width: 20%;
+    height: auto;
+}
+
+
+.my-apps .main-app{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+h3#main-app {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
