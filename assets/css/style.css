@@ -8,20 +8,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*TODO header details*/
+/*The header style*/
 .header {
     box-sizing: border-box;
     background-color: darkolivegreen;
 }
 
+/*Profile Photos size*/
 .profile-photo{
-    width: 300px;
+    width: 175px;
     height: auto;
     margin: 50px;
     position: relative;
     right: 430px;
 }
 
+/*h1 style in the header*/
 .header h1 {
     display: inline-block; 
     margin: 10px 80px;
@@ -74,16 +76,9 @@ p {
     justify-content: center;
 }
 
-.crochet a,
-.alpaca a,
-.crystals a,
-.botique a {
-display: flex;
-}
+
 
 .main-app {
-    display: flex;
-    align-items: center;
     width: 40%;
     height: auto;
 }
@@ -94,14 +89,35 @@ display: flex;
 }
 
 
-.my-apps .main-app{
+.bass,
+.alpaca-a,
+.crochet-a,
+.crystals-a,
+.concerts-a{
     position: relative;
     text-align: center;
     color: black;
 }
 
-h3#main-app {
+.project-a,
+.project-b,
+.project-c,
+.project-d,
+.project-e{
     position: absolute;
     bottom: 8px;
     left: 16px;
+}
+
+@media screen and (max-width: 1274px) {
+    .header {
+        width: 100%;
+        height: auto;
+    }
+    .header nav ul {
+        display: flex;
+        
+        justify-content: center;
+        margin: 0px;
+    }
 }
